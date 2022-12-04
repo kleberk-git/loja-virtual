@@ -133,6 +133,7 @@ nav a.a:hover::after{
 #landing {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 10px;
     font-size: 22px;
     justify-content: center;

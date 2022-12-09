@@ -366,8 +366,11 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: bolder;
     width: 100%;
     height: 150px;
+    background: linear-gradient(176deg, rgba(2,0,36,1) 9%, rgba(121,9,79,0.958420868347339) 100%, rgba(3,79,82,1) 100%, rgba(0,212,255,1) 100%, rgba(4,42,33,1) 100%);
+    color: #fff;
 }
 
 .instagram img{
@@ -384,7 +387,7 @@ hr{
 }
 .area-cards-redondo{
     width: 100%;
-    height: 220px;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,4 +422,16 @@ hr{
 }
 .card-redondo img{
     width: 45px;
+}
+
+.seguir{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(216,107,119,1) 0%, rgba(32,84,159,1) 100%, rgba(2,0,36,1) 100%, rgba(0,0,0,0.3267682072829131) 100%, rgba(0,0,0,1) 100%);
+    border: 0;
+}
+
+.seguir a{
+    color: #fff;
 }
